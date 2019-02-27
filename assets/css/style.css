@@ -141,7 +141,7 @@ h3, h2 {
   float: left;
   width: 274px;
   margin: 20px 0 25px;
-  /* overflow: auto; */
+  overflow: auto;
 }
 
 .work:nth-child(even) {
@@ -216,6 +216,7 @@ input[type=submit] {
   border: 0 none;
 }
 
+/*Media query for 980px screen and smaller */
 @media screen and (max-width: 980px) {
   .main-section {
     max-width: 70%;
@@ -230,6 +231,7 @@ input[type=submit] {
   }
 }
 
+/*Media query for 768px screen and smaller */
 @media screen and (max-width: 768px) {
   .main-section {
     max-width: 100%;
@@ -245,6 +247,7 @@ input[type=submit] {
   }
 }
 
+/*Media query for 640px screen and smaller */
 @media screen and (max-width: 640px) {
   #masthead{
     position: static;
@@ -271,7 +274,6 @@ input[type=submit] {
     padding-top: 5px;
     padding-left: 2%;
     padding-right: 2%;
-    /* min-height: calc(100vh - 300px); */
   }
 
   .auth-image{
@@ -289,7 +291,4 @@ input[type=submit] {
   .work:nth-child(even) {
     margin-right: 0;
   }
-
-
-  
 }
